@@ -1,10 +1,9 @@
-public class Task1 {
+public class Main {
     public static void main(String[] args) {
 
-           int TicketPrice = 74_569;
-           int Mile = 20;
-           int BonusMile = TicketPrice / Mile;
-        System.out.println ("У Вас "+ BonusMile  +" бонусных милей." );
-
+        int TicketPrice = 74_569;
+        int Mile = 20;
+        int BonusMile = TicketPrice / Mile;
+        System.out.println("У Вас " + BonusMile + " бонусных милей.");
     }
 }
